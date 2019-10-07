@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dung's website  </title>
+    <link rel="stylesheet" type="text/css" href="web-mid.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns" crossorigin="anonymous">
+    <link rel="icon" type="img/png  " href="https://media.istockphoto.com/photos/banana-isolated-on-white-background-top-view-picture-id903034374?k=6&m=903034374&s=612x612&w=0&h=i6ISIiDz_yZBuoSbON2C-TGHQ0gLSdmFJMAeH6JI114=">
+    <script src="cart_Demo.js"></script>
+</head>
+
+<body>
+    <div>
+        <div class="head-top">
+            <div class="contact">
+                <i class="fas fa-mobile-alt"></i><span>Điện thoại: 0985582807</span>&emsp; <span><i class="fas fa-envelope"></i>
+                    Email: trancongdung12@gmail.com</span>
+                <span class="sign"><i class="fas fa-user"></i>Đăng nhập - Đăng ký</span>
+            </div>
+        </div>
+        <div class="head-center">
+            <div class="logo">
+                <img src="https://i.imgur.com/kPpZ99r.jpg" alt="">
+                <span class="right-logo">
+                    <span class="icon">
+                        <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/policy1-0x0.png" alt="">
+                        <span class="text">
+                            Miễn phí vận chuyển
+                        </span>
+                    </span>
+                    <span class="icon">
+                        <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/policy2-0x0.png" alt="">
+                        <span class="text">Hỗ trợ 24/7</span>
+                    </span>
+                    <span class="icon">
+                        <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/policy3-0x0.png" alt="">
+                        <span class="text">Giờ làm việc</span>
+                    </span>
+                    <span class="icon">
+                        <button onclick="load()" class="cart"><i class="fas fa-shopping-bag"></i>&emsp;Giỏ hàng (<span id="sl_cart">0</span>)</button>
+                    </span>
+                </span>
+            </div>
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Sản phẩm</a></li>
+                <li><a href="">Tin tức</a></li>
+
+                <li><a href="">Liên hệ</a></li>
+                <div class="search"><input class="search-text" type="text" placeholder="&emsp;Tìm kiếm" name="" ><i class="fas fa-search"></i></div>
+            </ul>
+        </div>
+        
+
+<!--   Phần 1 -->
+    
+<div class="contener_0" id="contener_0">
+        <div class="grid-container">
+                 <div class="grid-item">
+                   <span class="gg-20">-20%</span>
+                    <img src="http://at01.chonweb.vn/wp-content/uploads/2019/07/nho.png" width="200px" height="200px" alt="">
+                    Nho mỹ<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giảm giá:120.000đ</span><br><span class="gach">Giá bán:150.000đ</span></p><br><button class="btn-1"><as>Chi tiết</a></button>
+                <button onclick="qtyCart(1)"  class="btn-2"><a>Đặt hàng</a></button>
+                 </div>
+
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/CC_Apple_withPLU-Stickers-300x300.png" width="200px" height="200px" alt="">
+
+                    Táo mỹ<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button onclick="qtyCart(2)" class="btn-2"><a>Đặt hàng</a></button>
+                 </div>
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/17.5-fresh-fruit-3-300x300.png" width="200px" height="200px" alt="">
+                    
+                    Cam mỹ<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Chuối</a></button>
+                 </div>
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/banana__bigImage-300x300.png" width="200px" height="200px" alt="">
+                    
+                    Nho mỹ<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Đặt hàng</a></button>
+                 </div>
+
+                 
+ 
+            </div>
+
+        <div class="grid-container">
+                 <div class="grid-item">
+                   <span class="gg-20">-34%</span>
+                    <img src="http://at01.chonweb.vn/wp-content/uploads/2019/07/king-crab-alaska-cua-hoang-de-72-min.png" width="200px" height="200px" alt="">
+                    Cua hoàng đế<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giảm giá:100.000đ</span><br><span class="gach">Giá bán:150.000đ</span></p><br><button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Đặt hàng</a></button>
+                 </div>
+
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/squid-1.png" width="200px" height="200px" alt="">
+
+                   Mực tươi<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Đặt hàng</a></button>
+                 </div>
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/lobster-300x300.png" width="200px" height="200px" alt="">
+                    
+                     Tôm hùm<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Đặt hàng</a></button>
+                 </div>
+                 <div class="grid-item">
+                    <img class="img-sp" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/yellowfin-tuna.png" width="200px" height="200px" alt="">
+                    
+                   Cá ngừ đại dương<br><p style="font-weight: bold;"><span style="color: #FE9705" >
+                        Giá bán:150.000đ</span><br></p><br><br>
+                        <button class="btn-1"><a href="chitiet.html">Chi tiết</a></button>
+                <button class="btn-2"><a href="muahang.html">Đặt hàng</a></button>
+                 </div>
+
+                 
+ 
+            </div>
+         </div> 
+<!-- Phần 2 -->
+
+<div class="contener_1" id="contener_1">
+        <div class="quangcao">
+            <p>Design by Dungx ><span class="cart-1" >  Giỏ hàng</span></p>
+        </div>
+        <div class="cart-big">
+            <p class="name-cart">Giỏ hàng</p>
+        </div>
+        <div class="product-cart">
+               <div>
+                    &emsp;<img src="https://shoop.vn/shoop_vn/uploads/2018/10/green_grande.png" height="16px" width="16px" alt="">&emsp;"Nho mỹ" đã được thêm vào giỏ hàng
+                </div> 
+                <div>
+                    <button class="btn-cont">Tiếp tục xem sản phẩm</button>
+                </div>
+        </div>
+        <div class="table-pay">
+            <table class="table-1" id="myTable">
+                
+                    <tr>
+                        <th> </th>
+                        <th> </th>
+                        <th>Sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Tổng</th>
+                    </tr>
+
+                
+                    <tr id="row_1">
+
+                        <td>
+                            <img id="delete_img"  class="delete" height="16px" width="16px" alt="Huỷ sản phẩm">
+                        </td>
+
+                        <td>
+                          <img id="img_1" height="30px" width="30px" alt="">
+                        </td>
+                        <td><span id="nameSP_1"></span></td>
+                        <td  class="price-pay">
+                          <span id="price_1"></span>
+                          <span>đ</span>
+                        </td>
+                        <td>
+                          <input class="sl-pay" id="qty_1" onchange="dem1()" type="number" name="" min ="1" max="100" value="1" id="select">
+                        </td>
+                        <td ><span id="tt1"></span>đ</td>
+                
+                    </tr>
+   <!-- sản phẩm 2 -->
+                    <tr id="row_2">
+
+                        <td>
+                            <img id="delete_img2"  class="delete" height="16px" width="16px" alt="Huỷ sản phẩm">
+                        </td>
+
+                        <td>
+                          <img id="img_2" height="30px" width="30px" alt="">
+                        </td>
+                        <td><span id="nameSP_2"></span></td>
+                        <td  class="price-pay">
+                          <span id="price_2"></span>
+                          <span>đ</span>
+                        </td>
+                        <td>
+                          <input class="sl-pay" id="qty_2" onchange="dem2()" type="number" name="" min ="1" max="100" value="1" id="select">
+                        </td>
+                        <td ><span id="tt2"></span>đ</td>
+                
+                    </tr>
+<!-- 
+                    <tr>
+                        <td ><img class="delete" src="https://cdn4.iconfinder.com/data/icons/basic-ui-colour/512/ui-02-512.png" height="16px" width="16px" alt="Huỷ sản phẩm"></td>
+                        <td><img id="img_2" src="http://at01.chonweb.vn/wp-content/uploads/2019/07/CC_Apple_withPLU-Stickers-300x300.png" height="30px" width="30px" alt=""></td>
+                        <td><span id="nameSP_2">Táo mỹ</span></td>
+                        <td  class="price-pay"><span id="price_2">150000</span><span>đ</span></td>
+                        <td>
+                            <input class="sl-pay" onchange="sum2()" type="number" name="" min ="1" max="100" value="1" id ="select1"></td>
+                        <td ><span id="tt2">150000</span>đ</td>
+                    </tr>
+
+                    <tr >
+                        <td ><img class="delete" src="https://cdn4.iconfinder.com/data/icons/basic-ui-colour/512/ui-02-512.png" height="16px" width="16px" alt="Huỷ sản phẩm"></td>
+                        <td><img src="http://at01.chonweb.vn/wp-content/uploads/2019/07/banana__bigImage-300x300.png" height="30px" width="30px" alt=""></td>
+                        <td>Chuối</td>
+                        <td class="price-pay">150000đ</td>
+                        <td><input class="sl-pay" onchange="sum3()" type="number" name="" min ="1" max="100" value="1" id="select3"></td>
+                        <td ><span id="tt3">150000</span>đ</td>
+                    </tr> -->
+
+
+                    <tr>
+                        <td  colspan="6"> 
+                            <div class="code-pay">
+                                <input class="sl-pay" type="text" placeholder="Mã ưu đãi" name=""> <span ><b>Ưu đãi:<b></span> <button class="acept-code">Áp dụng</button> 
+                                <button class="update-cart" onclick = "update()">Cập nhật giỏ hàng</button>
+                            </div>
+                        
+                        </td>
+                    </tr>
+              
+            </table>
+
+        </div>
+        <div class="pay-money">
+            <p class="plus-cart">Cộng giỏ hàng</p>
+            <table class="table-2">
+                <tr>
+                    <td class="text-3" >Tạm tính</td>
+                    <td><span id="tamtinh"></span>đ</td>
+                </tr>
+                <tr>
+                    <td class="text-3" >Tổng</td>
+                    <td class="text-3"><span id="tong"></span>đ</td>
+                </tr>
+            </table>
+            <button class="btn-pay" onclick="load2()"><a >Tiến hành thanh toán</a></button>
+        </div>
+</div>
+
+
+<!-- Phần 3 -->
+
+
+<div class="contener_2" id="contener_2">
+        <div class="name-product">
+
+              <p>Đặt mua:</p>
+          </div>
+        <div class="head-info">
+              <div class="number">
+                <p style="font-size: 20px"> <span class="number-1"><b>1</span><span style="color: 
+                #80bb35;"> Nhập thông tin khách hàng</span></b></p>  
+              </div>
+              <div class="number-2">
+                  <p style="font-size: 20px"> <span class="number-1"><b>2</span><span style="color: 
+                #80bb35;"> Chọn hình thức thanh toán</span></b></p>
+              </div>
+              <div class="number-3">
+                 <p style="font-size: 20px"> <span class="number-1"><b>3</span><span style="color: 
+                #80bb35;"> Xem lại đơn hàng</span></b></p>
+              </div>
+          </div>  
+      <div class="content">
+          
+          <div class="info">
+            
+            <input class="i-info" type="text" name="" placeholder="Họ và tên" id="name">
+            <input class="i-info" type="text" name="" placeholder="Điện thoại" id="phone">
+            <input class="i-info" type="text" name="" placeholder="Email" id="email">
+            <input class="i-info" type="text" name="" placeholder="Địa chỉ" id="address">
+            <textarea name="" placeholder="Ghi chú" id="note"></textarea>
+              
+          </div>
+          <div class="form-pay">
+             
+              <select id="selectCard" onchange="select()">
+                  <option value="1">Internet Banking/ATM nội địa (giảm 5%)</option>
+                  <option value="2">Visa/MasterCard/JCB (giảm 10%)</option>
+                  <option value="3">Trả tiền mặt tại văn phòng</option>
+              </select>
+              <p id="text_card"></p>
+          </div>
+          <div class="review" style="color: #555555">
+              <table>
+                  <tr id="rowPro_1">
+                    <td>
+                      <img id="imgPro_1" height="40px" width="40px" alt="">
+                    </td>
+                    <td>
+                        <span id="namePro_1"></span>
+                    </td>
+                    <td>
+                       <span id="pricePro_1"></span>
+                       <span>đ</span>
+                    </td>
+                    <td>
+                        <span>X </span><span id="qtyPro_1"></span>
+                    </td>
+                  </tr>
+         <!--  product 2 -->
+                  <tr id="rowPro_2">
+                    <td>
+                      <img id="imgPro_2" height="40px" width="40px" alt="">
+                    </td>
+                    <td>
+                        <span id="namePro_2"></span>
+                    </td>
+                    <td>
+                       <span id="pricePro_2"></span>
+                       <span>đ</span>
+                    </td>
+                    <td>
+                        <span>X </span><span id="qtyPro_2"></span>
+                    </td>
+                  </tr>
+              </table>
+                
+
+            <!-- Phan ma giam gia -->
+
+
+                <div class="sale">
+                  <p><b>
+                      <br>
+
+                    Tạm tính&emsp;&emsp;&emsp;<span id="tam"></span>đ<br>
+                    Giảm giá&emsp;&emsp;&emsp;<span  style="color: red">-<span id="sale"></span>đ</span>
+                  </b></p>
+                </div>
+                <div class="total-price" style="font-weight: bold;">
+
+                    Tổng cộng&emsp;&emsp;&emsp;<span id="total"></span>đ
+                </div>
+          
+          </div>
+      </div>
+      <div class="order">
+              <button class="btn-order" onclick="thongtinCus()"><a>Đặt hàng</a></button>
+          </div>
+</div>
+<!-- phần 4 -->
+<div class="contener_3" id="contener_3">
+        <p>Họ và tên: <span id="nameCus"></span></p>
+        <p>Điện thoại: <span id="phoneCus"></span></p>
+        <p>Email: <span id="emailCus"></span></p>
+        <p>Địa chỉ: <span id="addressCus"></span></p>
+        <p>Ghi chú: <span id="noteCus"></span></p>
+
+        <button onclick="xacnhan()" id="xacnhan"><a href="index.html">Xác nhận đơn hàng</a></button>
+</div>
+     <div class="footer">
+            <div class="footer-1">
+                <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/brand1-165x80.png" alt="">
+            </div>
+            <div class="footer-1">
+                <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/brand1-165x80.png" alt="">
+            </div>
+            <div class="footer-1">
+                <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/brand1-165x80.png" alt="">
+            </div>
+            <div class="footer-1">
+                <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/brand1-165x80.png" alt="">
+            </div>
+            <div class="footer-1">
+                <img src="http://at01.chonweb.vn/wp-content/uploads/2018/12/brand1-165x80.png" alt="">
+            </div>
+        </div>
+        <div class="about-us">
+            <div class="lienhe">
+                <p>LIÊN HỆ</p>
+                <div class="diachi">
+                    <p>101b Lê Hữu Trác, Sơn Trà, Đà Nẵng</p>
+                    <p>101b Lê Hữu Trác, Sơn Trà, Đà Nẵng</p>
+                    <p>101b Lê Hữu Trác, Sơn Trà, Đà Nẵng</p>
+                </div>
+            </div>
+            <div class="thongtin">
+                <P>THÔNG TIN</P>
+                <ul class="tt-con">
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Trang chủ</a></li>
+                    <li><a href="">Trang chủ</a></li>
+                </ul>
+            </div>
+            <div class="facebook">
+                <P>FACEBOOK</P>
+                <img src="https://i.imgur.com/PUeSyy7.jpg" width="250px" height="150px" alt="">
+            </div>
+        </div>
+        <div class="end">
+            <p class="designer" style="color: white">© Copyright 2019 Thiết kế web trancongdung12@gmail.com</p>
+            <p class="name-designer" style="color: white">Developed by <b style="color: red">Dungx</b></p>
+        </div>
+</body>
+
+</html>

@@ -1,0 +1,849 @@
+
+    * {
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .head-top {
+
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background: #80BB35;
+        color: white;
+        font-weight: bold;
+    }
+
+    .contact {
+        position: absolute;
+        left: 150px;
+    }
+
+    .contact i {
+        width: 26px;
+    }
+
+    span.sign {
+        position: relative;
+        left: 430px;
+    }
+
+    .head-center {
+        background: white;
+        width: 100%;
+        height: 150px;
+    }
+
+    .logo {
+        position: absolute;
+        left: 150px;
+        line-height: 170px;
+    }
+
+    .right-logo {
+        position: relative;
+        left: 50px;
+
+    }
+
+    .icon {
+        padding: 20px;
+    }
+
+    .text {
+        position: relative;
+        top: -19px;
+        left: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .cart {
+        position: relative;
+        top: -15px;
+        left: 50px;
+        border-radius: 10px;
+        border: none;
+        height: 30px;
+        width: 150px;
+        background: #FE9705;
+        color: white;
+    }
+
+    .menu {
+
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        background: #80BB35;
+        color: white;
+
+    }
+
+    .menu ul li {
+        text-align: center;
+        position: relative;
+        left: 150px;
+        width: 100px;
+        /*thay doi khoan cach menu*/
+        height: 50px;
+        line-height: 50px;
+        display: inline-block;
+    }
+
+    .menu ul li:hover {
+        background-color: #FE9705;
+    }
+
+    .menu ul li a {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .search {
+        text-align: center;
+        position: relative;
+        top: -40px;
+        left: 990px;
+        border: none;
+        height: 30px;
+        width: 250px;
+        background: white;
+        border-radius: 15px;
+    }
+    .search i{
+        color: black;
+        position: relative;
+        left: 25px;
+        top: -10px;
+    }
+    .search-text{
+
+        position: relative;
+        left: -10px;
+        top: -11px;
+        width: 150px;
+        height: 30px;
+        border: none;
+    }
+
+    .menu-2 ul li a {
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .menu-2 ul li {
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+    }.bottom-1{
+        border-bottom: 1px solid gray;
+    }
+
+    .menu-2 {
+        position: relative;
+        top: 30px;
+        left: 150px;
+    }
+
+    .top {
+        padding: 0px 15px;
+        color: white;
+        width: 230px;
+        height: 20px;
+        border: none;
+        background: #80BB35;
+        border-radius: 15px;
+    }
+
+    .menu-2 ul {
+        width: 250px;
+        border-radius: 15px;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .menu-2 i {
+        width: 26px;
+
+    }
+
+    .slide {
+        position: absolute;
+        top: 270px;
+        left: 430px;
+        width: 810px;
+        height: 350px;
+        background: white;
+
+    }
+
+    .slide img {
+        border-radius: 15px;
+    }
+
+    .part-2 .btn {
+        font-family: timenewroman;
+        font-weight: bold;
+        font-size: 17px;
+        position: relative;
+        left: 150px;
+        top: 100px;
+        border-radius: 15px;
+        border: none;
+        height: 40px;
+        width: 200px;
+        background: #80BB35;
+        color: white;
+    }
+    .gg-20{
+        position: relative;
+        left: -96.5px;
+        padding: 5px;
+        background-color: #FE9705;
+        color: white;
+
+    }
+    .gach{
+        color: gray;
+        text-decoration: line-through;
+    }
+
+    .grid-container {
+        width: 80%;
+        position: relative;
+        top: 40px;
+        left: 150px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .grid-item {
+
+        width: 200px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid #EEEEEE;
+        padding: 20px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+
+    .btn-1 {
+        width: 80px;
+        height: 30px;
+        background-color: white;
+        color: #80BB35;
+        border: 1px solid #80BB35;
+    }
+
+    .btn-1 a {
+        color: #80BB35;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .btn-2 a {
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .btn-2 {
+
+        width: 80px;
+        height: 30px;
+        background-color: #80BB35;
+        color: white;
+        border: 1px solid #80BB35;
+    }
+    .img-sp{
+        position: relative;
+        top: 30px;
+        margin-bottom: 18px;
+    }
+    .footer{
+    padding: 10px;
+    position: relative;
+    left: 150px;
+    top: 200px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.about-us{
+    color: white;
+    font-weight: bold;
+   padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 280px;
+    width: 100%;
+    height: 200px;
+    background: #65932A;
+
+}
+.lienhe{
+    
+    position: relative;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+}
+.diachi p{
+    margin-top: 20px;
+    padding:5px 0px;
+}
+.thongtin{
+     
+    position: relative;
+    left: -50px;
+}
+.tt-con li{
+     margin-top: 20px;
+}
+.tt-con li a{
+    text-decoration: none;
+    color: white;
+}
+.facebook{
+
+    position: relative;
+    left: -150px;
+}
+
+.end{
+    line-height: 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 250px;
+    width: 100%;
+    height: 40px;
+    background: #517622;
+}
+.designer{
+    position: relative;
+    left: 150px;
+}
+.name-designer{
+    position: relative;
+    left: -150px;
+}
+
+    /******html chi tiet san pham***/
+
+    .menu-3 ul li a {
+        color: black;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .menu-3 ul li {
+        border-bottom: 1px solid gray;
+        padding: 10px;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    .menu-3 {
+        position: absolute;
+        top: 270px;
+        left: 990px;
+    }
+
+    .menu-3 ul {
+        width: 250px;
+        border-radius: 15px;
+        border-right: 1px solid gray;
+        border-left: 1px solid gray;
+        border-bottom: 1px solid gray;
+    }
+
+    .menu-3 i {
+        width: 26px;
+
+    }
+
+    .chitiet {
+
+        display: grid;
+        grid-template-columns: auto auto
+    }
+
+    .img-chitiet {
+        position: absolute;
+        top: 270px;
+        left: 150px;
+        width: 350px;
+        height: 330px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid #eeeeee;
+        padding: 20px;
+        font-size: 17px;
+        text-align: center;
+        border-radius: 0;
+    }
+
+    .img-chitiet .img-con {
+        position: relative;
+        left: -20px;
+        top: -70px;
+    }
+
+    .km-20 {
+        font-weight: bold;
+        color: white;
+        background-color: #80bb35;
+        position: relative;
+        top: -15px;
+        left: -5px;
+        font-size: 13px;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        border: 1px solid #80bb35;
+        border-radius: 100%;
+        line-height: 30px;
+    }
+
+    .search-icon {
+        position: relative;
+        top: -40px;
+        left: 170px;
+    }
+
+    .tt-chitiet {
+        width: 370px;
+        height: 370px;
+        top: 270px;
+        left: 570px;
+        color: black;
+        background: white;
+        position: absolute;
+
+    }
+
+    .title-chitiet {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .price-chitiet span {
+        font-weight: bold;
+    }
+
+    .new-price {
+        color: #FE9705;
+        font-size: 23px;
+    }
+
+    .tt-chitiet p {
+        padding: 10px;
+    }
+
+    .text-chitiet {
+        text-align: center;
+        width: 70px;
+        height: 30px;
+    }
+
+    .btn-buy {
+        font-weight: bold;
+        width: 100px;
+        height: 35px;
+        background-color: #80BB35;
+        color: white;
+        border: 1px solid #80BB35;
+        border-radius: 5px;
+    }
+    .btn-buy a{
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+
+    /**********Mua hang************/
+
+    .quangcao {
+        position: relative;
+        top: 20px;
+        left: 150px;
+    }
+
+    .cart-1 {
+        color: #80BB35;
+    }
+
+    .cart-big {
+        position: relative;
+        margin-top: 50px;
+        top: 20px;
+        left: 150px;
+    }
+
+    .name-cart {
+        font-size: 35px;
+    }
+
+    .product-cart {
+        color: #515151;
+        position: relative;
+        margin-top: 10px;
+        top: 20px;
+        left: 150px;
+        width: 1090px;
+        height: 60px;
+        line-height: 60px;
+        background-color: #EEEEEE;
+        border-top: 3px solid #80BB35;
+
+    }
+
+    .btn-cont {
+        color: #515151;
+        font-weight: bold;
+        width: 200px;
+        height: 30px;
+        position: relative;
+        top: -60px;
+        left: 860px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .table-pay {
+        position: relative;
+        margin-top: 10px;
+        top: 20px;
+        left: 150px;
+        width: 1090px;
+        height: 60px;
+    }
+
+    .table-1{
+
+        border: 2px solid #EBE9EB;
+        border-collapse: collapse;
+    }
+    .table-1 th{
+         border: 2px solid #EBE9EB;
+        border-collapse: collapse;
+    }
+    .table-1 td{
+         border: 2px solid #EBE9EB;
+        border-collapse: collapse;
+    }
+
+    .table-1 {
+        border: 2px solid #EBE9EB;
+        border-collapse: collapse;
+        width: 1090px;
+        height: 150px;
+    }
+
+    .table-1 th {
+        text-align: center;
+        height: 50px;
+    }
+    .table-1 td {
+        text-align: center;
+        height: 50px;
+    }
+
+    .delete {
+
+        border-radius: 100%;
+    }
+
+    .delete:hover {
+        background-color: red;
+    }
+
+    .price-pay {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .sl-pay {
+        text-align: center;
+        width: 60px;
+        height: 30px;
+    }
+
+    .code-pay {
+        padding: 10px;
+        text-align: left;
+    }
+
+    .acept-code {
+        font-weight: bold;
+        color: #515151;
+        width: 70px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .update-cart {
+        position: relative;
+        left: 700px;
+        font-weight: bold;
+        color: #515151;
+        width: 160px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+    }
+
+    .pay-money {
+        position: relative;
+        margin-top: 40px;
+        width: 530px;
+        height: 200px;
+        top: 200px;
+        left: 710px;
+    }
+    .plus-cart{
+
+        color: #515151;
+        font-size: 30px;
+    }
+    .pay-money table{
+         padding: 1px 10px;
+         text-align: left;
+    }
+    .table-2{
+       margin-top: 10px;
+        border: 2px solid #EBE9EB;
+        width: 530px;
+        height:80px; 
+        border-radius: 10px;
+    }
+    .table-2 tr{
+        border-top: 2px solid #EBE9EB;
+        
+    }
+    .btn-pay{
+        margin-top: 10px;
+        width:530px;
+        height: 50px;
+        font-weight: bold;
+        font-size: 20px;
+        color: white;
+        background:  #639B37;
+        border: none;
+        border-radius: 5px;
+    }
+    .btn-pay a{
+        text-decoration: none;
+        color: white;
+    }
+    .btn-pay:hover{
+        background: #FE9705;
+    }
+    .text-3{
+        font-weight: bold;
+    }
+
+    /*******Dat don hang **********/
+
+
+    .name-product{
+        position: relative;
+        top: 30px;
+        left: 150px;
+        font-weight: bold;
+        font-size: 27px;
+
+    }
+    .head-info{
+        margin-top: 50px;
+        width: 70%;
+        position: relative;
+        display: flex;
+        top: 30px;
+        left: 150px;
+        justify-content: space-between;
+    }
+    .content {
+        width: 79%;
+        position: relative;
+        top: 60px;
+        left: 150px;
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .number-1{
+        color: white;
+        background-color: #80Bb35;
+        padding: 5px 10px;
+        border: 1px solid  #80Bb35;
+        border-radius: 100%;
+    }
+    .number{
+        text-align: left;
+        width: 300px;
+    }
+    .number-2{
+        position: relative;
+        left: 20px;  
+        text-align: left;
+        width: 350px;
+    }
+    .number-3{
+        position: relative;
+        left: 100px;
+        text-align: left;
+        width: 300px;
+    }
+    .info {
+
+        height: 300px;
+        width: 250px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border: none;
+        font-size: 17px;
+        text-align: center;
+
+     }   
+    .info input{
+            width: 100%;
+           height: 30px;
+           margin-bottom: 15px;
+           border-radius: 5px;
+           border: 1px solid #eeeeee;
+          
+    }
+    .info textarea{
+        width: 100%;
+        height: 80px;
+    }
+    .form-pay{
+        border: none;
+        width: 350px;
+        background-color: rgba(255, 255, 255, 0.8);
+      
+        font-size: 17px;
+        
+    }
+    .form-pay select{
+        width: 100%;
+        height: 30px;
+        border-radius: 5px;
+        border: 1px solid #80bb35;
+        margin-bottom: 10px;
+    }
+    .review{
+        padding: 10px;
+        width: 300px;
+        border: 1px solid #eeeeee;
+        font-size: 17px;
+       
+        display: flex;
+        flex-direction: column;
+    }
+    .price-prodcut{
+        display: flex;
+        text-align: left;
+        width: 100%;
+        height: 40px;
+    
+    }
+    .price-prodcut img{
+        position: relative;
+        top: 0px;
+    }
+    .price-prodcut b{
+        font-size: 15px;
+        position: relative;
+        top: 10px;
+    }
+
+    .mgg{
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .sale{
+        
+        width: 100%;
+        height: 80px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+    }
+    .nhap-mgg{
+        text-decoration: none;
+        font-weight: bold;
+        color: red;
+    }
+    .order{
+        position: relative;
+        top: 70px;
+        left: 893px;
+    }
+    .total-price{
+        line-height: 60px;
+    }
+    .btn-order{
+        width: 323px;
+        height: 35px;
+        border: none;
+        border-radius: 5px;
+        font-weight: bold;
+        color: white;
+        font-size: 20px;
+        background-color: #80BB35;
+    }
+    .btn-order:hover{
+        background-color: #e41c1c;
+    }
+    .btn-order a{
+        text-decoration: none;
+        color: white;
+    }
+
+/**Chuyen giua 2 trang**/
+
+.contener_1{
+    display: none;
+}
+.contener_2{
+    display: none;
+}
+.contener_3{
+    font-weight: bold;
+    display: none;
+    position: absolute;
+    left: 500px;
+    top: 300px;
+    width: 400px;
+    height: 300px;
+    background: #eeeeee;
+}
+.contener_3 p{
+    padding: 10px;
+}
+.contener_3 button{
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background: tomato;
+    border: none;
+    position: relative;
+    left: 130px;
+}
+.contener_3 a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
